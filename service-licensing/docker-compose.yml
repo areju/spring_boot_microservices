@@ -9,7 +9,7 @@ services:
        - "SPRING_PROFILES_ACTIVE=dev"
     networks:
       backend:
-        alias:
+        aliases:
           - "licenseservice"
 
 networks:
